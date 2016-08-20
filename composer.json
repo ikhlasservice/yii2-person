@@ -1,0 +1,35 @@
+{
+    "name": "ikhlasservice/yii2-seller",
+    "description": "Yii2 for seller management system.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0",
+    "minimum-stability": "stable",
+    "support": {
+        "source": "https://github.com/ikhlasservice/yii2-seller.git",
+        "issues": "https://github.com/ikhlasservice/yii2-seller/issues"
+    },
+    "authors": [
+        {
+            "name": "Ikhlas Service",
+            "email": "ahamad.jedu@gmail.com",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "andatech/yii2-core": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ikhlas\\seller\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
