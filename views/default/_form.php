@@ -2,11 +2,11 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use backend\modules\persons\models\Person;
+use ikhlas\persons\models\Person;
 use kartik\widgets\DatePicker;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\persons\models\Person */
+/* @var $model ikhlas\persons\models\Person */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

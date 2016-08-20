@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\modules\persons\models;
+namespace ikhlas\persons\models;
 
 use Yii;
 use yii\behaviors\AttributeBehavior;

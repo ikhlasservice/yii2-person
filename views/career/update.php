@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\persons\models\PersonCareer */
+/* @var $model ikhlas\persons\models\PersonCareer */
 
 $this->title = Yii::t('person', 'Update {modelClass}: ', [
     'modelClass' => 'Person Career',

@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\persons\models\PersonCareer */
+/* @var $model ikhlas\persons\models\PersonCareer */
 
 $this->title = Yii::t('person', 'Create Person Career');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('person', 'Person Careers'), 'url' => ['index']];

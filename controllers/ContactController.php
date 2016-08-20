@@ -1,9 +1,9 @@
 <?php
 
-namespace backend\modules\persons\controllers;
+namespace ikhlas\persons\controllers;
 
 use Yii;
-use backend\modules\persons\models\PersonContact;
+use ikhlas\persons\models\PersonContact;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

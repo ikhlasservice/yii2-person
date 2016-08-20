@@ -1,14 +1,14 @@
 <?php
 
-namespace backend\modules\persons\models;
+namespace ikhlas\persons\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\modules\persons\models\Person;
+use ikhlas\persons\models\Person;
 
 /**
- * PersonSearch represents the model behind the search form about `backend\modules\persons\models\Person`.
+ * PersonSearch represents the model behind the search form about `ikhlas\persons\models\Person`.
  */
 class PersonSearch extends Person {
 

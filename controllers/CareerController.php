@@ -1,9 +1,9 @@
 <?php
 
-namespace backend\modules\persons\controllers;
+namespace ikhlas\persons\controllers;
 
 use Yii;
-use backend\modules\persons\models\PersonCareer;
+use ikhlas\persons\models\PersonCareer;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

@@ -1,17 +1,17 @@
 <?php
 
-namespace backend\modules\persons\controllers;
+namespace ikhlas\persons\controllers;
 
 use Yii;
-use backend\modules\persons\models\Person;
-use backend\modules\persons\models\PersonSearch;
+use ikhlas\persons\models\Person;
+use ikhlas\persons\models\PersonSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\helpers\Json;
-use backend\modules\persons\models\LocalProvince;
-use backend\modules\persons\models\LocalAmphur;
-use backend\modules\persons\models\LocalTambol;
+use ikhlas\persons\models\LocalProvince;
+use ikhlas\persons\models\LocalAmphur;
+use ikhlas\persons\models\LocalTambol;
 use yii\helpers\ArrayHelper;
 use backend\modules\image\models\Image;
 use yii\web\UploadedFile;
